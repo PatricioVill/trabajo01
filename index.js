@@ -1,19 +1,7 @@
-const calculadora = {
-    sumar : function(a,b){
-        return a + b
-    },
-    restar :function(a,b){
-        return a - b 
-    },
-    multiplicar : function(a,b){
-        return a * b
-    },
-    dividir :function(a,b){
-        if(b === 0){
-            return "no se puede vividir"
-        }
-        return a / b
-    },
-}
+let sumar = (a, b ) => a + b
+let restar = (a, b) => a - b
+let multiplicar = (a,b) => a * b
+let dividir = (a, b) => a/b
 
-module.exports = calculadora;
+
+console.log(sumar(1, 3));
